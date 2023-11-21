@@ -102,8 +102,8 @@ console.log(
   } gallons`
 );
 
-console.log(`Is your budget be enough to cover the fuel expense: the answer is
- ${fuelBudget > (tripDistance / 30) * 3} because you need ${
+console.log(`Is your budget be enough to cover the fuel expense: \n
+The answer is ${fuelBudget > (tripDistance / 30) * 3} because you need ${
   tripDistance / 30
 } gallons for this trip that will cost ${
   3 * (tripDistance / 30)
@@ -121,8 +121,8 @@ console.log(
   } gallons`
 );
 
-console.log(`Is your budget be enough to cover the fuel expense: the answer is
- ${fuelBudget > (tripDistance / 28) * 3} because you need ${
+console.log(`Is your budget be enough to cover the fuel expense: \n 
+The answer is ${fuelBudget > (tripDistance / 28) * 3} because you need ${
   tripDistance / 28
 } gallons for this trip that will cost ${
   3 * (tripDistance / 28)
@@ -135,13 +135,13 @@ console.log(
 //Driving at 75mph
 
 console.log(
-  `At 75 miles per hour, you get 23 miles per gallon. Then the entire trip requires ${
-    tripDistance / 23
-  } gallons`
+  'At 75 miles per hour, you get 23 miles per gallon. \
+   Then the entire trip requires' +
+    (tripDistance / 23) + 'gallons'
 );
 
-console.log(`Is your budget be enough to cover the fuel expense: the answer is
- ${fuelBudget > (tripDistance / 23) * 3} because you need ${
+console.log(`Is your budget be enough to cover the fuel expense: \n 
+The answer is ${fuelBudget > (tripDistance / 23) * 3} because you need ${
   tripDistance / 23
 } gallons for this trip that will cost ${
   3 * (tripDistance / 23)
