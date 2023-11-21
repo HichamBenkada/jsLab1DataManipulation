@@ -153,5 +153,5 @@ console.log(
 
 
 console.log(
-  `At 60 miles per hour makes most sense when comparing the results`
+  `When comparing the results driving at 60 miles per hour makes most sense`
 );
