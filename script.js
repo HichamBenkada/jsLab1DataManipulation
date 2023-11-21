@@ -46,3 +46,22 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && 
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
+
+  //This is my lab implemetation
+  //Check if all numbers are divisible by 5. Cache the result in a variable.
+
+  const isDivisibleBy5 =(n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5)== 0;
+  console.log(`Is all numbers are divisible by 5? ${isDivisibleBy5}`);
+
+
+  // Check if the first number is larger than the last. Cache the result in a variable.
+  const isFirst_grater_Last =n1 > n4;
+
+  console.log(`Is the first number is larger than the last ? ${isFirst_grater_Last}`); 
+  
+  //Arithmetic chain:
+  console.log(`The result of subtracting the first number ${n1} from the second number ${n2} is ${n2-n1}`);
+
+  console.log(`The result of multipling the subtraction result by the third number ${n4} is ${(n2-n1)*n3}`);
+
+  console.log(`The remainder of dividing this multiplication result by the fourth number ${n4} is ${((n2-n1)*n3) %  n4}`);
